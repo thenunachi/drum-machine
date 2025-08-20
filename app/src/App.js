@@ -57,6 +57,7 @@ function App() {
           <div id="display">
             {displayElement}
           </div>
+          <div className='buttons'>
           {pads.map((pad) => (
             <div
               key={pad.key}
@@ -73,6 +74,7 @@ function App() {
             </div>
           ))}
 
+        </div>
         </div>
       </header>
     </div>
